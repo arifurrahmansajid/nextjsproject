@@ -60,7 +60,7 @@ const Navbar = () => {
                             alt="Buick Service Logo" 
                             className="rounded-lg"
                         />
-                        <span className="font-bold text-xl text-primary">Buick Service</span>
+                        <span className="font-bold text-xl text-primary">Bike Service</span>
                     </span>
                 </Link>
             </div>

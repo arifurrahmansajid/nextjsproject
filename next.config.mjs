@@ -10,6 +10,14 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: "www.motorcyclevalley.com",
             },
+            {
+                protocol: 'https',
+                hostname: "images.unsplash.com",
+            },
+            {
+                protocol: 'https',
+                hostname: "images.pexels.com",
+            },
         ],
     },
 };
