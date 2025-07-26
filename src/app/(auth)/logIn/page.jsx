@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import LoginForm from './components/LoginForm';
 import SocialLogin from '@/app/components/SocialLogin';
@@ -15,15 +16,17 @@ const LogIn = () => {
                             <LoginForm></LoginForm>
                             <div className='divider'>Or</div>
                             <SocialLogin></SocialLogin>
+                            <div className="mt-4 text-center">
+                                <span>Don't have an account? </span>
+                                <Link href="/register" className="text-blue-600 hover:underline font-semibold">Register here</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="text-center lg:text-left">
-                        <Image src='/assets/images/login/login.svg' width={600} height={600}>
-                        </Image>
+                        <Image src='/assets/images/login/login.svg' width={600} height={600} />
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

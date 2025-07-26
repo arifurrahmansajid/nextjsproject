@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        data-theme="light"
       >
         <NextAuthSession>
           <Navbar></Navbar>

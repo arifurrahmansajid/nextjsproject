@@ -12,27 +12,27 @@ const Navbar = () => {
         return (
             <>
                 <li>
-                    <Link href='/'>
+                    <Link href='/' className="transition-colors duration-200 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md">
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link href='/about'>
+                    <Link href='/about' className="transition-colors duration-200 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md">
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link href='/services'>
+                    <Link href='/services' className="transition-colors duration-200 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md">
                         Services
                     </Link>
                 </li>
                 <li>
-                    <Link href='/blogs'>
+                    <Link href='/blogs' className="transition-colors duration-200 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md">
                         Blogs
                     </Link>
                 </li>
                 <li>
-                    <Link href='/contacts'>
+                    <Link href='/contacts' className="transition-colors duration-200 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md">
                         Contacts
                     </Link>
                 </li>
@@ -55,7 +55,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link href='/' className="btn btn-ghost text-xl">
-                    <Image src={'/assets/logo.svg'} width={50} height={50} alt="Car Doctor Logo" />
+                    <span className="flex items-center gap-2 transition-transform duration-200 hover:scale-110">
+                        <Image src={'https://www.motorcyclevalley.com/images/logo.png'} width={50} height={50} alt="Buick Service Logo" />
+                        <span className="font-bold text-lg text-blue-700">Buick Service</span>
+                    </span>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -72,11 +75,8 @@ const Navbar = () => {
                         </>
                         :
                         <div className='flex gap-2'>
-                            <Link href='/register'>
-                                Register
-                            </Link>
                             <Link href='/logIn'>
-                                Log in
+                            Log In
                             </Link>
 
                         </div>
