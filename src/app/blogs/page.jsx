@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const allBlogs = [
   {
@@ -106,16 +106,8 @@ const allBlogs = [
 ];
 
 export default function Blogs() {
-  const [darkMode, setDarkMode] = useState(false);
   const [visibleBlogs, setVisibleBlogs] = useState(allBlogs.slice(0, 3));
   const [hasMore, setHasMore] = useState(allBlogs.length > 3);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setDarkMode(isDark);
-    }
-  }, []);
 
   const loadMoreBlogs = () => {
     const currentlyVisible = visibleBlogs.length;
@@ -128,72 +120,58 @@ export default function Blogs() {
   };
 
   return (
-    <main className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-900'}`}>
+    <main className="min-h-screen bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 py-12">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4">
-          <div>
-            <h1 className={`text-4xl md:text-5xl font-bold mb-3 ${darkMode ? 'text-orange-500' : 'text-red-600'}`}>MotoWorks Blog</h1>
-            <p className={`text-lg max-w-2xl ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-              Expert advice, maintenance tips, and repair guides from our motorcycle mechanics.
-            </p>
-          </div>
-          <div className="flex items-center gap-4">
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className={`p-3 rounded-full transition-all ${darkMode ? 'bg-gray-700 text-yellow-300 hover:bg-gray-600' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
-              aria-label="Toggle dark mode"
-            >
-              {darkMode ? (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" />
-                </svg>
-              ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-                </svg>
-              )}
-            </button>
-          </div>
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-red-600">
+            MotoWorks Blog
+          </h1>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Expert advice, maintenance tips, and repair guides from our motorcycle mechanics.
+          </p>
         </div>
 
+        {/* Blog Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {visibleBlogs.map(blog => (
             <div 
               key={blog.id} 
-              className={`rounded-xl overflow-hidden transition-all duration-300 hover:scale-[1.02] flex flex-col border 
-                ${darkMode ? 'border-gray-700 bg-gray-800 hover:shadow-orange-500/10' : 'border-gray-200 bg-white hover:shadow-red-200'}`}
+              className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.02] flex flex-col"
             >
               <div className="relative h-60 w-full group overflow-hidden">
                 <Image 
                   src={blog.image} 
                   alt={blog.title} 
-                  fill 
-                  className="object-cover transition-transform duration-500 group-hover:scale-110" 
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-                <div className={`absolute bottom-0 left-0 px-3 py-1 rounded-tr-lg text-sm font-semibold 
-                  ${darkMode ? 'bg-orange-600 text-white' : 'bg-red-100 text-red-800'}`}>
+                <div className="absolute bottom-0 left-0 px-3 py-1 rounded-tr-lg text-sm font-semibold bg-red-100 text-red-800">
                   {blog.category}
                 </div>
               </div>
+              
               <div className="p-6 flex-1 flex flex-col">
                 <div className="flex justify-between items-start mb-3">
-                  <span className={`text-xs font-medium px-2 py-1 rounded 
-                    ${darkMode ? 'bg-gray-700 text-orange-400' : 'bg-red-50 text-red-600'}`}>
+                  <span className="text-xs font-medium px-2 py-1 rounded bg-red-50 text-red-600">
                     {blog.readTime}
                   </span>
                 </div>
-                <h2 className={`text-2xl font-bold mb-3 leading-tight ${darkMode ? 'text-orange-400' : 'text-red-700'}`}>
+                
+                <h2 className="text-2xl font-bold mb-3 text-gray-800 leading-tight">
                   {blog.title}
                 </h2>
-                <p className={`mb-4 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                
+                <p className="mb-4 text-gray-600">
                   {blog.summary}
                 </p>
-                <div className="mt-auto pt-4 border-t flex items-center justify-between text-sm">
-                  <span className={`${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                
+                <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between text-sm">
+                  <span className="text-gray-500">
                     By {blog.author}
                   </span>
-                  <span className={`${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                  <span className="text-gray-500">
                     {blog.date}
                   </span>
                 </div>
@@ -202,12 +180,12 @@ export default function Blogs() {
           ))}
         </div>
 
+        {/* Load More Button */}
         {hasMore && (
           <div className="mt-16 text-center">
             <button 
               onClick={loadMoreBlogs}
-              className={`px-8 py-3 rounded-lg font-medium transition-all hover:scale-105 shadow-md
-                ${darkMode ? 'bg-orange-600 hover:bg-orange-700 text-white' : 'bg-red-600 hover:bg-red-700 text-white'}`}
+              className="px-8 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg font-medium transition-all hover:scale-105 shadow-md"
             >
               Load More Articles
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline ml-2" viewBox="0 0 20 20" fill="currentColor">
