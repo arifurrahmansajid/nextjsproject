@@ -14,7 +14,7 @@ export default function About() {
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Hero Section */}
       <section className="mb-16 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-blue-700">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-red-700">
           About Bike Service Bangladesh
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -33,9 +33,9 @@ export default function About() {
             We understand your bike is more than transportation—it's your freedom and joy. That's why we treat every motorcycle with the utmost care and attention to detail.
           </p>
           <div className="flex flex-wrap gap-4 mt-6">
-            <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Expert Technicians</span>
-            <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Quality Parts</span>
-            <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Fast Service</span>
+            <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full font-medium">Expert Technicians</span>
+            <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full font-medium">Quality Parts</span>
+            <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full font-medium">Fast Service</span>
           </div>
         </div>
 
@@ -51,22 +51,22 @@ export default function About() {
       </div>
 
       {/* Mission Section */}
-      <section className="bg-blue-50 rounded-2xl p-8 md:p-12 mb-16">
+      <section className="bg-red-50 rounded-2xl p-8 md:p-12 mb-16">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="text-blue-600 text-4xl mb-4">🏆</div>
+              <div className="text-red-600 text-4xl mb-4">🏆</div>
               <h3 className="font-bold text-lg mb-2">Quality Service</h3>
               <p className="text-gray-600">Providing expert services with original quality parts at affordable prices</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="text-blue-600 text-4xl mb-4">🤝</div>
+              <div className="text-red-600 text-4xl mb-4">🤝</div>
               <h3 className="font-bold text-lg mb-2">Customer Trust</h3>
               <p className="text-gray-600">Building long-term relationships based on reliability and transparency</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="text-blue-600 text-4xl mb-4">👨‍🔧</div>
+              <div className="text-red-600 text-4xl mb-4">👨‍🔧</div>
               <h3 className="font-bold text-lg mb-2">Team Growth</h3>
               <p className="text-gray-600">Investing in our team's development to deliver exceptional service</p>
             </div>
@@ -90,7 +90,7 @@ export default function About() {
               </div>
               <div className="p-6 text-center">
                 <h3 className="font-bold text-xl mb-1">Technician Name</h3>
-                <p className="text-blue-600 font-medium">Specialization</p>
+                <p className="text-red-600 font-medium">Specialization</p>
                 <p className="text-gray-600 mt-2">10+ years experience</p>
               </div>
             </div>
@@ -99,12 +99,12 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-700 rounded-2xl p-8 md:p-12 text-center text-white">
+      <section className="bg-red-700 rounded-2xl p-8 md:p-12 text-center text-white">
         <h2 className="text-3xl font-bold mb-4">Ready to Service Your Bike?</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
           Book an appointment today and experience our premium service firsthand
         </p>
-        <button className="bg-white text-blue-700 font-bold px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors">
+        <button className="bg-white text-red-700 font-bold px-8 py-3 rounded-lg hover:bg-red-50 transition-colors">
           Schedule Service
         </button>
       </section>

@@ -8,7 +8,7 @@ export default function Contacts() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-red-600">
-            Contact MotoWorks
+            Contact Bike Service
           </h1>
           <p className="text-xl max-w-2xl mx-auto text-gray-600">
             Get in touch with our expert mechanics for inquiries, support, or service appointments.
@@ -40,10 +40,10 @@ export default function Contacts() {
             <h3 className="text-xl font-bold mb-3 text-gray-800">Email Us</h3>
             <p className="mb-4 text-gray-600">Send us your questions or service requests</p>
             <a 
-              href="mailto:service@motoworks.com" 
+              href="mailto:service@Bike Service.com" 
               className="text-lg font-medium text-red-600 hover:text-red-500"
             >
-              service@motoworks.com
+              service@Bike Service.com
             </a>
           </div>
 

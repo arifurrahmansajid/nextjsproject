@@ -125,7 +125,7 @@ export default function Blogs() {
         {/* Header Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-red-600">
-            MotoWorks Blog
+            Bike Service Blog
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Expert advice, maintenance tips, and repair guides from our motorcycle mechanics.
