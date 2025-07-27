@@ -11,27 +11,27 @@ const Navbar = () => {
         return (
             <>
                 <li>
-                    <Link href='/' className="font-medium text-gray-700 hover:text-primary hover:bg-primary/10 px-4 py-2 rounded-lg transition-colors">
+                    <Link href='/' className="font-medium text-gray-700 hover:text-red-700 hover:bg-red-50 px-4 py-2 rounded-lg transition-colors">
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link href='/about' className="font-medium text-gray-700 hover:text-primary hover:bg-primary/10 px-4 py-2 rounded-lg transition-colors">
+                    <Link href='/about' className="font-medium text-gray-700 hover:text-red-700 hover:bg-red-50 px-4 py-2 rounded-lg transition-colors">
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link href='/services' className="font-medium text-gray-700 hover:text-primary hover:bg-primary/10 px-4 py-2 rounded-lg transition-colors">
+                    <Link href='/services' className="font-medium text-gray-700 hover:text-red-700 hover:bg-red-50 px-4 py-2 rounded-lg transition-colors">
                         Services
                     </Link>
                 </li>
                 <li>
-                    <Link href='/blogs' className="font-medium text-gray-700 hover:text-primary hover:bg-primary/10 px-4 py-2 rounded-lg transition-colors">
+                    <Link href='/blogs' className="font-medium text-gray-700 hover:text-red-700 hover:bg-red-50 px-4 py-2 rounded-lg transition-colors">
                         Blogs
                     </Link>
                 </li>
                 <li>
-                    <Link href='/contacts' className="font-medium text-gray-700 hover:text-primary hover:bg-primary/10 px-4 py-2 rounded-lg transition-colors">
+                    <Link href='/contacts' className="font-medium text-gray-700 hover:text-red-700 hover:bg-red-50 px-4 py-2 rounded-lg transition-colors">
                         Contacts
                     </Link>
                 </li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                             alt="Buick Service Logo" 
                             className="rounded-lg"
                         />
-                        <span className="font-bold text-xl text-primary">Bike Service</span>
+                        <span className="font-bold text-xl text-red-700">Bike Service</span>
                     </span>
                 </Link>
             </div>
@@ -94,13 +94,13 @@ const Navbar = () => {
                         </div>
                     ) : (
                         <div className='flex items-center gap-4'>
-                            <Link href='/logIn' className="font-medium text-gray-700 hover:text-primary px-4 py-2">
+                            <Link href='/logIn' className="font-medium text-gray-700 hover:text-red-700 px-4 py-2">
                                 Log In
                             </Link>
                         </div>
                     )
                 }
-                <Link href="/appointment" className="btn btn-primary text-white px-6 shadow-md hover:shadow-lg">
+                <Link href="/appointment" className="btn bg-red-600 text-white px-6 shadow-md hover:shadow-lg border-none">
                     Appointment
                 </Link>
             </div>
