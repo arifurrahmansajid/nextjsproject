@@ -18,6 +18,7 @@ export const registerUser = async (payload) => {
         const hashPassword = await bcrypt.hash(password, 10)
         payload.password = hashPassword
         const result = await db.insertOne(payload);
-        return { success: true, data: result };
+        // Convert insertedId to string for client compatibility
+        return { success: true, data: { ...result, insertedId: result.insertedId?.toString() } };
     }
 };

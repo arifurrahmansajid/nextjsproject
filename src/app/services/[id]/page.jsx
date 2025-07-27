@@ -34,7 +34,7 @@ const ServicesDetails = async ({ params }) => {
             </section>
             <div className='md:flex justify-between gap-10'>
                 <section className='mt-3 flex-1/2'>
-                    <Image className='rounded ' src={singleData.img} width={752} height={400}></Image>
+                    <Image className='rounded' src={singleData.img} width={752} height={400} alt={singleData.title || 'Service image'} />
                     <p className='text-2xl font-bold mt-5'>{singleData.title}</p>
                     <p className='text-xl mt-5 text-justify '>{singleData.description}</p>
                 </section>

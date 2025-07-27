@@ -17,7 +17,7 @@ const Services = async () => {
                         <div key={item._id} className='col-span-4 shadow-md rounded-xl object-cover hover:-translate-y-2 duration-300'>
                             <div className='p-5  '>
                                 <figure className='w-full h-full flex justify-center items-center'>
-                                    <Image className=' h-full w-full object-fill' src={item.img} width={314} height={208}></Image>
+                                    <Image className='h-full w-full object-fill' src={item.img} width={314} height={208} alt={item.title || 'Service image'} />
                                 </figure>
                                 <p className='font-bold'>{item.title}</p>
                                 <div className='flex justify-between items-center '>
