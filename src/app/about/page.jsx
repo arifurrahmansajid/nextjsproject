@@ -4,9 +4,9 @@ export default function About() {
   // Image URLs from free stock photo sites
   const images = {
     workshop: "https://i.ibb.co/0jtnKXRZ/pexels-photo-3818903.jpg",
-    technician1: "https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    technician2: "https://images.pexels.com/photos/4482903/pexels-photo-4482903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    technician3: "https://images.pexels.com/photos/4482905/pexels-photo-4482905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+   technician1: "	https://speedforce.in/wp-content/uploads/2020/08/WhatsApp-Image-2021-05-12-at-14.48.30.jpeg",
+    technician2: "	https://speedforce.in/wp-content/uploads/2020/08/WhatsApp-Image-2021-05-12-at-14.48.33.jpeg",
+    technician3: "	https://speedforce.in/wp-content/uploads/2020/08/WhatsApp-Image-2021-05-12-at-14.48.31.jpeg",
     technician4: "https://images.pexels.com/photos/5710082/pexels-photo-5710082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   };
 
