@@ -21,4 +21,4 @@ const dbConnect = async (collectionName) => {
     return client.db(process.env.DB_NAME).collection(collectionName);
 }
 
-export default dbConnect
+export default dbConnect  cxzvVDAS

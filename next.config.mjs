@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
-    images: {
-        domains: [
-            "i.ibb.co",
-            "www.motorcyclevalley.com",
-            "speedforce.in",
-            "images.pexels.com"
-        ],
-    },
+  images: {
+    domains: [
+      'speedforce.in',
+      'images.pexels.com',
+      'i.ibb.co',
+      'images.unsplash.com',
+      'www.motorcyclevalley.com',
+    ],
+  },
 };
 
 export default nextConfig;

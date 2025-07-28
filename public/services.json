@@ -1,152 +1,152 @@
 [
-    {
-        "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        "service_id": "01",
-        "title": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-        "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
-        "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    }
+  {
+    "service_id": "04",
+    "title": "Motorcycle Oil Change",
+    "img": "https://i.ibb.co/KpNRWTW8/man-fixing-motorcycle-modern-workshop-1.jpg",
+    "price": "20.00",
+    "description": "Keep your motorcycle running smoothly with our comprehensive oil change service. We use high-quality oil suited for your bike's engine, ensuring optimal performance and longevity. Our expert technicians drain old oil, replace the filter, and refill with premium oil while checking for any leaks or issues.",
+    "facility": [
+      {
+        "name": "Quick Bike Services",
+        "details": "Fast and reliable oil change services to get you back on the road quickly."
+      },
+      {
+        "name": "24/7 Support",
+        "details": "Round-the-clock assistance for all your motorcycle maintenance needs."
+      },
+      {
+        "name": "Expert Technicians",
+        "details": "Certified professionals with extensive experience in motorcycle care."
+      },
+      {
+        "name": "Affordable Pricing",
+        "details": "Competitive rates with no compromise on service quality."
+      }
+    ]
+  },
+  {
+    "service_id": "05",
+    "title": "Chain Maintenance",
+    "img": "https://i.ibb.co/rGNq0y2M/combine-machine-service-mechanic-repairing-motor-outdoors.jpg",
+    "price": "25.00",
+    "description": "Ensure your motorcycle's chain is in top condition with our chain maintenance service. We clean, lubricate, and adjust the chain tension to improve performance and extend its lifespan. Proper chain care enhances safety and ensures a smoother ride.",
+    "facility": [
+      {
+        "name": "Quick Bike Services",
+        "details": "Efficient chain cleaning and lubrication for optimal performance."
+      },
+      {
+        "name": "24/7 Support",
+        "details": "Round-the-clock assistance for all your motorcycle maintenance needs."
+      },
+      {
+        "name": "Expert Technicians",
+        "details": "Certified professionals with extensive experience in motorcycle care."
+      },
+      {
+        "name": "Affordable Pricing",
+        "details": "Competitive rates with no compromise on service quality."
+      }
+    ]
+  },
+  {
+    "service_id": "01",
+    "title": "Battery Check & Charge",
+    "img": "https://i.ibb.co/BHfHGpwc/medium-shot-man-with-motorbike-outdoors.jpg",
+    "price": "18.00",
+    "description": "Our battery check and charge service ensures your motorcycle starts reliably every time. We test the battery's health, clean terminals, and recharge or replace as needed to prevent unexpected breakdowns and ensure consistent power delivery.",
+    "facility": [
+      {
+        "name": "Quick Bike Services",
+        "details": "Fast and thorough battery diagnostics and charging services."
+      },
+      {
+        "name": "24/7 Support",
+        "details": "Round-the-clock assistance for all your motorcycle maintenance needs."
+      },
+      {
+        "name": "Expert Technicians",
+        "details": "Certified professionals with extensive experience in motorcycle care."
+      },
+      {
+        "name": "Affordable Pricing",
+        "details": "Competitive rates with no compromise on service quality."
+      }
+    ]
+  },
+  {
+    "service_id": "02",
+    "title": "Tire Service",
+    "img": "https://i.ibb.co/F47nrD0J/asian-biker-fixing-his-motorcycle-before-ride.jpg",
+    "price": "35.00",
+    "description": "Our tire service includes inspection, repair, or replacement of motorcycle tires to ensure safe handling and grip. We check tire pressure, tread depth, and balance to optimize your ride's safety and performance on any terrain.",
+    "facility": [
+      {
+        "name": "Quick Bike Services",
+        "details": "Comprehensive tire inspection and maintenance for maximum safety."
+      },
+      {
+        "name": "24/7 Support",
+        "details": "Round-the-clock assistance for all your motorcycle maintenance needs."
+      },
+      {
+        "name": "Expert Technicians",
+        "details": "Certified professionals with extensive experience in motorcycle care."
+      },
+      {
+        "name": "Affordable Pricing",
+        "details": "Competitive rates with no compromise on service quality."
+      }
+    ]
+  },
+  {
+    "service_id": "03",
+    "title": "Brake System Check",
+    "img": "https://i.ibb.co/Vp2yT8ff/man-fixing-motorcycle-modern-workshop-3.jpg",
+    "price": "30.00",
+    "description": "Stay safe with our brake system check, where we inspect and service your motorcycle's brake pads, rotors, and fluid levels. We ensure your brakes are responsive and reliable, providing peace of mind for every ride.",
+    "facility": [
+      {
+        "name": "Quick Bike Services",
+        "details": "Detailed brake inspections and maintenance for optimal stopping power."
+      },
+      {
+        "name": "24/7 Support",
+        "details": "Round-the-clock assistance for all your motorcycle maintenance needs."
+      },
+      {
+        "name": "Expert Technicians",
+        "details": "Certified professionals with extensive experience in motorcycle care."
+      },
+      {
+        "name": "Affordable Pricing",
+        "details": "Competitive rates with no compromise on service quality."
+      }
+    ]
+  },
+  {
+    "service_id": "06",
+    "title": "Full Motorcycle Tune-Up",
+    "img": "https://i.ibb.co/9HGMbW7C/custom-motorcycle-standing-repair-shop.jpg",
+    "price": "100.00",
+    "description": "Our full motorcycle tune-up service includes a comprehensive inspection and maintenance of all major systems, including engine, brakes, chain, and tires. We optimize your bike for peak performance, ensuring a smooth and safe ride.",
+    "facility": [
+      {
+        "name": "Quick Bike Services",
+        "details": "Complete tune-up services to enhance your motorcycle's performance."
+      },
+      {
+        "name": "24/7 Support",
+        "details": "Round-the-clock assistance for all your motorcycle maintenance needs."
+      },
+      {
+        "name": "Expert Technicians",
+        "details": "Certified professionals with extensive experience in motorcycle care."
+      },
+      {
+        "name": "Affordable Pricing",
+        "details": "Competitive rates with no compromise on service quality."
+      }
+    ]
+  }
 ]
